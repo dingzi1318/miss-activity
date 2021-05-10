@@ -2,7 +2,7 @@
 #服务名
 spring:
   application:
-    name: miss-mappers
+    name: miss-activity
   main:
     allow-bean-definition-overriding: true
   profiles:
