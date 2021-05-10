@@ -1,0 +1,15 @@
+
+#服务名
+spring:
+  application:
+    name: miss-mappers
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+
+#数据库配置
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.miss.mappers.model
+
